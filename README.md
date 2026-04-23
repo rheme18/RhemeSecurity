@@ -1,17 +1,20 @@
-# 🛡️ RhemeSecurity v2.0 - Anti-Intruder AI
+# 🛡️ RhemeSecurity v3.0 Ultimate AI
 
-Bu uygulama, odanıza giren yabancıları algılayıp bilgisayarınızı otomatik olarak kilitleyen ve kanıtları Discord üzerinden size gönderen gelişmiş bir güvenlik sistemidir.
+Bu yazılım, bilgisayarınızı yapay zeka destekli bir koruma kalkanına dönüştürür. Tanıdığı kişilere (Patron) izin verirken, yabancıları anında raporlar ve sistemi kilitler.
 
-## 🚀 Temel Özellikler
-- **🔐 Auto-Lock:** Yabancı bir yüz algılandığında sistemi saniyeler içinde kilit ekranına alır.
-- **📢 Discord Raporlama:** Yakalanan "davetsiz misafir" fotoğraflarını anlık olarak Discord kanalınıza gönderir.
-- **📁 Akıllı Log:** Tüm olayları `logs/` klasörüne zaman damgalı olarak kaydeder.
-- **⚙️ Ayarlar Menüsü:** Kilit özelliğini açıp kapatabilir, Webhook adresinizi dinamik olarak güncelleyebilirsiniz.
+## 🚀 Temel İşlevler
+- **🧠 Kişi Tanıma:** Yüz hatlarınızı analiz eder ve sizi yabancılardan ayırır.
+- **🔐 Akıllı Kilit:** Yetkisiz biri kameraya girdiğinde sistemi kilitler.
+- **📱 Discord Raporu:** "Davetsiz misafir" fotoğraflarını anlık olarak telefonunuza (Discord botuyla) gönderir.
+- **📁 Kanıt Kaydı:** Tüm ihlalleri `logs/` klasöründe fotoğraf olarak saklar.
 
-## 🛠️ Kurulum
-1. `setup.bat` dosyasını çalıştırın.
-2. Programı **Yönetici Olarak** başlatın (Kilit ekranı yetkisi için gereklidir).
-3. Ayarlar kısmından Discord Webhook URL'nizi yapıştırın.
+## 🛠️ Nasıl Kullanılır?
+1. **Kurulum:** `setup.bat` dosyasını çalıştırın veya `pip install -r requirements.txt` komutunu kullanın.
+2. **Kendini Tanıt:** Uygulamayı açıp `Ayarlar` sekmesine gidin. `PATRONU TANIT` butonuna basın ve kamera sizi kaydedene kadar (yaklaşık 5 sn) kameraya bakın.
+3. **Webhook Ayarı:** Discord'dan aldığınız Webhook linkini ayarlara yapıştırın.
+4. **Korumayı Başlat:** Ana ekrandaki yeşil butona basarak nöbeti başlatın!
 
----
-*Developed by Patron for high-security environments.*
+> **⚠️ Not:** Kilit sisteminin çalışması için programı **Yönetici Olarak Çalıştır** modunda açmanız gerekir.
+
+## 👨‍💻 Geliştirici
+Bu proje **Patron (Rheme)** tarafından modern güvenlik ihtiyaçları için geliştirilmiştir.
